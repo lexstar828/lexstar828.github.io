@@ -1,0 +1,22 @@
+body {
+    background: #c8deec;
+    font-family: helvetica Neue;
+}
+img { width: 300px;height: 300px;
+    border-style: solid; black;
+}
+h1, h3, h4 {
+font-family: Courier New;
+}
+
+h2 {
+font-family: Century Gothic;
+}
+
+h5 {
+    color: #887
+}
+
+a {
+    font-weight: bold;
+}
