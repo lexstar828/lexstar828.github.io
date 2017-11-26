@@ -1,0 +1,54 @@
+.grey-box {
+    background: lightgray;
+    margin: 0 auto;
+    padding: 5px;
+    width: 80%;
+    text-align: center;
+    border: 5px solid lightgrey;
+}
+
+#navbar {
+    background: rgb(0, 0, 0);
+    margin: 0 auto;
+    padding: 10px;
+  
+}
+
+a  {
+    color: white;
+    text-decoration: none;
+  }
+
+
+.top-box {
+    background: rgb(255, 60, 59);
+    margin: 25px 5px 10px;
+    padding:5px;
+    text-align: center;
+}
+
+.middle-box {
+    background: rgb(255, 60, 59);
+    margin: 10px 5px;
+    padding:5px;
+    text-align: center;
+}
+
+.bottom-box {
+    background: rgb(255, 60, 59);
+    margin: 10px 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+.color__top {
+    color: blue;
+}
+
+.color__middle {
+    color: green;
+}
+
+.color__bottom {
+    color: yellow;
+}
