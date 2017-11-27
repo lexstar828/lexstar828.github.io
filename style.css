@@ -1,3 +1,28 @@
 body {
-    background: red;
+    background: olive;
+    margin: 25px;
+    font-family: helvetica Neue;
+    text-align: center;
+
+    
+
+}
+img { width: 400px;height: 400px;
+   border: 3px solid black;
+    }
+
+.intro {
+        background: lightgray;
+        margin: 0 auto;
+        padding: 5px;
+        width: 90%;
+        border: 5px solid lightgrey;
+    }
+
+a {
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+
+
 }
