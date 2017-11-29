@@ -1,0 +1,65 @@
+body {
+    width: 720px;
+    padding: 54px;
+    border-left: 6px solid #dddddd;
+    font-family: Lato;
+    line-height: 1.5em;
+}
+h1, h2 {
+    font-weight: normal;
+}
+
+.date {
+    color: #cccccc;
+    margin: 40px 0 0;
+}
+
+.header-link {
+    color: #dddddd;   
+    font-size: 16px;
+}
+
+.header-link:hover {
+    color: black;
+}
+
+img {
+    width: 720px;
+}
+
+.link {
+    color: #DD0000;
+    text-decoration: none;
+    font-size: 16px;
+}
+.link:hover {
+    color: #aa0000;
+}
+.continues {
+    float: right;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+
+.title {
+    font-size: 40px;
+    font-weight: 400;
+}
+.article-title {
+    font-weight: 400;
+    
+}
+
+hr {
+    width: 720px;
+    margin: 30px 0px;
+}
+
+.border-left {
+    border-left: 1px solid;
+    padding: 5px;
+
+}
+.copyright {
+    color: #bbbbbb;
+}
