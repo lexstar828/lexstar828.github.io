@@ -17,6 +17,7 @@ h1, h2 {
 .header-link {
     color: #dddddd;   
     font-size: 16px;
+    padding: 10px;
 }
 
 .header-link:hover {
