@@ -1,0 +1,168 @@
+/* FONT FAMILY HELPERS :)
+font-family: 'Oswald', sans-serif;
+font-family: 'Merriweather', serif;
+font-family: 'Source Sans Pro', sans-serif; */
+
+body {
+    font-family: "Source Sans Pro";
+    margin: 0.5;
+    max-width: 1080px;
+    min-width: 300px;
+    margin: 0 auto;
+    border-left: 1px solid black;
+}
+
+h1 {
+    font-family: "Merriweather", serif;
+    color: yellow;
+    padding: 0 20px;
+    
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  border-bottom: 5px solid yellow;
+  align-items: center;
+}
+
+.header2 {
+    background: #C6C6C6;
+    text-align: center;
+    font-style: italic;
+}
+
+.tagline {
+    font-family: "Merriweather";
+    background: #C6C6C6;
+    margin: 0;
+    padding: 20px;
+}
+
+.taste {
+    color: grey;
+    text-decoration: line-through;
+}
+.are {
+    border-bottom: 3px solid yellow;
+
+}
+nav {
+    width: 33%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link {
+    font-family: "Oswald";
+    color: white;
+    text-decoration: none;
+    font-weight: 400;
+    
+    
+
+}
+h2 {
+    font-family: "Merriweather", serif;
+    font-size: 25px;
+}
+h3 {
+    font-family: "Oswald"
+}
+
+
+
+main {
+    display: flex;
+    justify-content: flex-end;
+    background: url('../img/coworking.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    align-content: center;
+    border-bottom: 1px solid black;
+    
+}
+
+aside {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0;
+    justify-content: flex-start;
+    width: 25%;
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 2px solid darkgrey;
+    padding: 20px;
+    margin: 20px;
+    color: black;
+
+}
+
+section {
+    display:flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: flex-start;
+    align-items: center;
+    height: 300px;
+}
+.three-columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-grow: 0;
+    align-items: stretch;
+    width: 300px;
+    height: 250px;
+    padding: 20px;
+    font-weight: 400;
+
+}
+.column-border {
+    border-left: 2px solid grey;
+}
+
+.grey-link, grey-link:hover, grey-link:visited, .yellow-link {
+    font-family: "Oswald";
+    color: black;
+    text-decoration: none;
+    padding: 10 30px;
+
+    
+
+}
+
+.grey-link {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: stretch;
+    flex-grow: 0;
+    background: #C6C6C6;
+    border: 1px solid #c6c6c6;
+    border-radius: 3px;
+    margin: 10px;
+    box-shadow: 0 3px grey;
+       
+}
+
+.yellow-link {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-grow: 0;
+    background: yellow;
+    border: 1px solid yellow;
+    border-radius: 3px;
+    box-shadow: 0 3px lightgrey;
+}
+
+
+footer {
+    background: black;
+    color: white;
+    padding: 10px 20px;
+}
