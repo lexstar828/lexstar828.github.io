@@ -9,6 +9,10 @@ $('#click-me').click(function() {
     $('#solution').html(parseInt(age) * (max) * (num) + ' more ' + (item));
 
 })
+// val userDrink= $('item').val;
+// var total= (parseInt(max) - parseInt(age)) * parseInt(num) * 365;
+// $('solution').html(total);
+// $('drink').html(item);
 
 // Store your current age into a variable
 
