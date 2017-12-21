@@ -5,6 +5,8 @@ $('.row:odd').click(function(){
 $('.row:even').click(function(){
 	$(this).find('.wrapper').slideToggle('fast');
 })
+
+
 // 1. Add a .click() handler to elements with the class of .row
 // 2. Associate this .click() handler with an anoymous function 
 // (in other words, "pass" .click() and anonymous function)
