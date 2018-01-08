@@ -1,7 +1,19 @@
 $('#f-button').click(function() {
 	var farInput = parseFloat($('#f-input').val());
 	var celOutput = (farInput - 32) * 5 / 9;
+	
 
+	if (farInput >= 80) {
+		
+			$('body').css ('background-color', 'orange');
+	
+		}  else if (farInput <= 32) {
+			$('body').css ('background-color', 'lightblue');
+		} else {
+			$('body').css ('background-color', 'white');
+		}
+
+	
 	// Clear input elements
 	$('#f-input').val('')
 	$('#c-input').val('')
@@ -12,6 +24,18 @@ $('#f-button').click(function() {
 $('#c-button').click(function() {
 	var celInput = parseFloat($('#c-input').val());
 	var farOutput = celInput * 9 / 5 +32;
+
+
+	if (celInput >= 26) {
+		
+		$('body').css ('background-color', 'orange');
+
+	}  else if (celInput <= 0) {
+		$('body').css ('background-color', 'lightblue');
+	} else {
+		$('body').css ('background-color', 'white');
+	}
+
 
 	// Clear input elements
 	$('#f-input').val('')

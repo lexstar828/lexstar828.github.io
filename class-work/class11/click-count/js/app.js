@@ -20,7 +20,7 @@ $('#clickme').click(function () {
     // else {
     // $('body').removeClass(') }
     // console.log($('body').hasClass('red-body));
-    }
+    
         $('body').css ('background-color', 'red');
 
     } else if (count == 10) {

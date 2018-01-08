@@ -10,7 +10,7 @@ $('#lightswitch').click (function() {
 		$('#lightswitch')
 		.addClass('switch-off')
 		.removeClass('switch-on')
-		.css('color', 'black');
+		
 		
 		$('#lightswitch').html('OFF');
 		// $('body').css('background', 'black');
@@ -23,6 +23,7 @@ $('#lightswitch').click (function() {
 		$('#lightswitch').html('ON');
 		// $('body').css('background', 'white');
 		$('body').removeClass('lights-off');
+		console.log(lightswitch);
 	}
 })
 
