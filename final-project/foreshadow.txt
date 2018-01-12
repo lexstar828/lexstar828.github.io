@@ -17,3 +17,17 @@ Based on the skill level, have the map display beginner, intermediate , expert t
 Possibly use live trail report (how many are open).
 
 Duration of the trip could also be a factor: have recommendations for users based on their duration (whether its a day or the weekend) and distance to the mountains.
+
+
+
+
+
+
+
+
+Enter weight: 
+
+Height:
+
+
+Level
