@@ -13,6 +13,26 @@
 // 6: Figure out a way to update the number in #total (Hint: look back at the calculator box example)
 // 7: Empty the input in #newEntry (clear it out)
 
-$(document).ready(function () {
 
-})
+$(document).ready(function () {
+    
+    $("#entry").keypress(function(event) {
+        if (event.which == 13) {
+            event.preventDefault();
+            var total = $('#newEntry').val();
+            calculate(parseFloat(total));
+            $("form").submit();
+        }
+    });
+            // $('#entry').submit(function (event) {
+            //     event.preventDefault();
+            //     var total = $('#newEntry').val();
+
+            //     calculate(parseFloat(total));
+            // });
+
+            function calculate(total) {
+            var sum = total;
+            $('#total').html('$' + sum);
+            }
+        })
