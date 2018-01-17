@@ -1,4 +1,4 @@
 $('#swap').click(function(){
-    $('#simba').attr('src' , 'img/simbaNow.jpg')
+    $('#gender').attr('src' , 'images/erol-ahmed-186962.jpg')
     })
 
