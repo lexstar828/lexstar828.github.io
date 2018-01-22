@@ -15,24 +15,49 @@
 
 
 $(document).ready(function () {
-    
-    $("#entry").keypress(function(event) {
-        if (event.which == 13) {
-            event.preventDefault();
-            var total = $('#newEntry').val();
-            calculate(parseFloat(total));
-            $("form").submit();
-        }
+
+    var total = 0;
+
+    $('#entry').submit(function(event) {
+
+        event.preventDefault();
+
+        var newEntry = $('#newEntry').val();
+
+        newEntry = parseFloat(newEntry);
+        //console.log(newEntry);
+
+        $('#entries').append('<tr><td></td>' + newEntry + '</td></tr>');
+        total = total + newEntry;
+
+        $('#total').text('$' + total);
+        // console.log(total);
+
+        $('#newEntry').val('');
     });
-            // $('#entry').submit(function (event) {
-            //     event.preventDefault();
-            //     var total = $('#newEntry').val();
 
-            //     calculate(parseFloat(total));
-            // });
 
-            function calculate(total) {
-            var sum = total;
-            $('#total').html('$' + sum);
-            }
-        })
+
+
+})
+    
+    // $("#entry").keypress(function(event) {
+    //     if (event.which == 13) {
+    //         event.preventDefault();
+    //         var total = $('#newEntry').val();
+    //         calculate(parseFloat(total));
+    //         $("form").submit();
+    //     }
+    // });
+    //         // $('#entry').submit(function (event) {
+    //         //     event.preventDefault();
+    //         //     var total = $('#newEntry').val();
+
+    //         //     calculate(parseFloat(total));
+    //         // });
+
+    //         function calculate(total) {
+    //         var sum = total;
+    //         $('#total').html('$' + sum);
+    //         }
+       
