@@ -1,17 +1,228 @@
 body {
-  background: white;
-  background-image: url("../images/erol-ahmed-186962.jpg");
-  background-size: cover;
-  font-family: helvetica Neue;
-  text-align: center;
+	margin: 0;
+	background: #000; 
+	display: flex;
+	
+	
+  }
+
+  #container {
+	width: 95%;
+	margin: 1% auto;
+	max-width: 1200px;
+}
+  video { 
+	  position: fixed;
+	  top: 50%;
+	  left: 50%;
+	  min-width: 100%;
+	  min-height: 100%;
+	  width: auto;
+	  height: auto;
+	  z-index: -100;
+	  transform: translateX(-50%) translateY(-50%);
+   background: url('../images/butter.jpg') no-repeat;
+	background-size: cover;
+	transition: 1s opacity;
+  }
+  .stopfade { 
+	 opacity: .5;
+  }
+  
+  .butter { 
+	  display: flex;
+	  flex-direction: column;
+	  flex-wrap: wrap;
+	  justify-content: space-between;
+	font-family: 'Roboto', sans-serif;
+	background: rgba(0,0,0,0.3);
+	color: white;
+	padding: 2rem;
+	width: 33%;
+	position:absolute;
+	top:0;
+	right:0;
+	margin:4rem;
+	float: right;
+	font-size: 1.2rem;
+  }
+  h1 {
+	font-size: 3rem;
+	text-transform: uppercase;
+	margin-top: 0;
+	letter-spacing: .3rem;
+  }
+  .butter button { 
+	font-family: 'Signika', sans-serif;
+	display: block;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left:0;
+	right:0;
+	padding: 0.5rem;
+	border: none; 
+	margin: 1rem auto; 
+	font-size: 1.3rem;
+	background: rgba(255,255,255,0.23);
+	color: #fff;
+	border-radius: 3px; 
+	cursor: pointer;
+	transition: .3s background;
+  }
+  .butter button:hover { 
+	 background: rgba(0,0,0,0.5);
+  }
+
+  
+  .length {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	font-family: 'Roboto', sans-serif;
+	font-weight:100; 
+	background: rgba(0,0,0,0.3);
+	color: white;
+	padding: 2rem;
+	width: 33%;
+	position:absolute;
+	bottom: 0;
+	left: 0;
+	margin:2rem;
+	float: left;
+	font-size: 1.2rem;
+  }
+  
+
+  #weight-type {
+	display: inline-block;
+	font-family: 'Roboto', sans-serif;
+	font-weight:100; 
+	background: rgba(0,0,0,0.3);
+	color: white;
+	padding: 2rem;
+	width: 75%;
+	position: relative;
+	bottom: 0;
+	left: 0;
+	margin:2rem;
+	
+	font-size: 1.2rem;
+
+  }
 
 
+  h1, h2, h3 {
+	font-size: 3rem;
+	font-family: 'Signika', sans-serif;
+	text-transform: uppercase;
+	margin-top: 0;
+	letter-spacing: .3rem;
+  }
+  
+  a {
+	display: inline-block;
+	color: #fff;
+	text-decoration: none;
+	background:rgba(0,0,0,0.5);
+	padding: .5rem;
+	transition: .6s background; 
+  }
+  
+  a:hover{
+	background:rgba(0,0,0,0.9);
+  }
+
+
+ #crap {
+	
+
+	width: 90%;
+	background: url(../images/snowboard_blank.jpg) no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	padding-bottom: 250px;
+	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.25);
+	
+ }
+ #crap img {
+	
+	width: 100%;
 }
 
-a {
-  color: black;
-  font-weight: bold;
-  text-decoration: none;
-
-
+.one {
+	background-image: url(../images/snowboard_110.jpg) no-repeat;
+	
 }
+.two {
+	background-image: url(../images/snowboard_115.jpg) no-repeat;
+	
+}
+.three {
+	background-image: url(../images/snowboard_125.jpg) no-repeat;
+	
+}
+.four {
+	background-image: url(../images/snowboard_135.jpg) no-repeat;
+	
+}
+.five {
+	background-image: url(../images/snowboard_140.jpg) no-repeat;
+	
+}
+.six {
+	background-image: url(../images/snowboard_150.jpg) no-repeat;
+	
+}
+.seven {
+	background-image: url(../images/snowboard_160.jpg) no-repeat;
+	
+}
+.eight {
+	background-image: url(../images/snowboard_170205.jpg) no-repeat;
+	
+}
+.nine {
+	background-image: url(../images/snowboard_170205.jpg) no-repeat;
+	
+}
+.ten {
+	background-image: url(../images/snowboard_170205.jpg) no-repeat;
+	
+}
+.eleven {
+	background-image: url(../images/snowboard_170205.jpg) no-repeat;
+	
+}
+
+ @media (max-width: 480px) {
+
+	body {
+		
+		width:100%
+	}
+	#container {
+		width:80%;
+	}
+	video {
+		width: 80%;
+	}
+	.butter {
+		display: block;
+		margin-top: 30px;
+		width: 100%;
+		box-sizing: border-box;
+		border: none;
+  }
+  .length {
+	display: block;
+	margin-top: 30px;
+    width: 100%;
+    box-sizing: border-box;
+		border: none;
+  }
+  
+
+  }
+  

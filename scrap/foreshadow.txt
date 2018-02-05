@@ -1,0 +1,33 @@
+
+
+For my final project, I knew that I wanted to something that I am passionate about. I was torn between my passion, as well as pain of motorcycles and my love for snowboarding. My cat was also up there, but I believe he is too much of a liability.
+
+I've decided to build my final project based on snowboarding and everything that you would need to know when you're starting off.
+
+The parts that I would concentrate on would be :
+1. Equipment (debating whether to include boards and bindings or a bigger variety of equipment)
+
+  - From picking the right size for your height/weight (using javascript to demonstrate it). Different types of boards (for different terrains/parks/powder etc;.)
+
+
+
+2. Location
+ Have an interactive map of (10) nearby mountains, say in the Tri-State or East Coast with users ability to select their skill level. 
+Based on the skill level, have the map display beginner, intermediate , expert trails with popups describing the terrain (ie moguls, groomed, powder)
+Possibly use live trail report (how many are open).
+
+Duration of the trip could also be a factor: have recommendations for users based on their duration (whether its a day or the weekend) and distance to the mountains.
+
+
+
+
+
+
+
+
+Enter weight: 
+
+Height:
+
+
+Level

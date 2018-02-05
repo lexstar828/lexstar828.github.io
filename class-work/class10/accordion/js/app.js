@@ -1,4 +1,4 @@
-v// The following can be written in 3 lines of jQuery/JavaScript!
+// The following can be written in 3 lines of jQuery/JavaScript!
 $('.row:odd').click(function(){
 	$(this).find('.wrapper').slideToggle(3000);
 })
