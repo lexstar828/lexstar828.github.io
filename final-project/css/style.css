@@ -37,20 +37,20 @@ body {
 	font-family: 'Roboto', sans-serif;
 	background: rgba(0,0,0,0.3);
 	color: white;
-	padding: 2rem;
+	padding: 32px;
 	width: 33%;
 	position:absolute;
 	top:0;
 	right:0;
-	margin:4rem;
+	margin:64px;
 	float: right;
-	font-size: 1.2rem;
+	font-size: 19px;
   }
   h1 {
-	font-size: 3rem;
+	font-size: 48px;
 	text-transform: uppercase;
 	margin-top: 0;
-	letter-spacing: .3rem;
+	letter-spacing: 5px;
   }
   .butter button { 
 	font-family: 'Signika', sans-serif;
@@ -60,10 +60,10 @@ body {
 	top: 0;
 	left:0;
 	right:0;
-	padding: 0.5rem;
+	padding: 8px;
 	border: none; 
-	margin: 1rem auto; 
-	font-size: 1.3rem;
+	margin: 16px auto; 
+	font-size: 20px;
 	background: rgba(255,255,255,0.23);
 	color: #fff;
 	border-radius: 3px; 
@@ -84,14 +84,14 @@ body {
 	font-weight:100; 
 	background: rgba(0,0,0,0.3);
 	color: white;
-	padding: 2rem;
+	padding: 32px;
 	width: 33%;
 	position:absolute;
 	bottom: 0;
 	left: 0;
-	margin:2rem;
+	margin:32px;
 	float: left;
-	font-size: 1.2rem;
+	font-size: 19px;
   }
   
 
@@ -101,24 +101,24 @@ body {
 	font-weight:100; 
 	background: rgba(0,0,0,0.3);
 	color: white;
-	padding: 2rem;
+	padding: 32px;
 	width: 75%;
 	position: relative;
 	bottom: 0;
 	left: 0;
-	margin:2rem;
+	margin:32px;
 	
-	font-size: 1.2rem;
+	font-size: 19px;
 
   }
 
 
   h1, h2, h3 {
-	font-size: 3rem;
+	font-size: 32px;
 	font-family: 'Signika', sans-serif;
 	text-transform: uppercase;
 	margin-top: 0;
-	letter-spacing: .3rem;
+	letter-spacing: 5px;
   }
   
   a {
@@ -126,7 +126,7 @@ body {
 	color: #fff;
 	text-decoration: none;
 	background:rgba(0,0,0,0.5);
-	padding: .5rem;
+	padding: 5px;
 	transition: .6s background; 
   }
   
