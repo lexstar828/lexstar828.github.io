@@ -202,28 +202,25 @@ body {
 
  @media (max-width: 480px) {
 
-	body {
-		
-		width:100%
-	}
+	
 	#container {
-		width:80%;
+		width:100%;
 	}
-	video {
-		width: 80%;
-	}
+
+
+	.length {
+		display: none;
+		margin-top: 330px;
+			width: 90%;
+			box-sizing: border-box;
+			border: none;
+		}
+		
 	.butter {
-		display: block;
-		margin-top: 30px;
-		width: 100%;
+		padding: 10px;
+		margin-top: 70px;
+		width: 80%;
 		box-sizing: border-box;
-		border: none;
-  }
-  .length {
-	display: block;
-	margin-top: 30px;
-    width: 100%;
-    box-sizing: border-box;
 		border: none;
   }
   
