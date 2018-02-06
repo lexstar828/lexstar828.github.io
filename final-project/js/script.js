@@ -4,9 +4,10 @@ $(document).ready(function() {
   
 
 
-// $('.length').click(function(){
-// 	$(this).find('.hide').slideToggle('fast');
-// })
+$('.length').dblclick(function(){
+	$(this).find('.hide').slideToggle('fast');
+})
+
 
 var vid = document.getElementById("bgvid");
 var pauseButton = document.querySelector(".butter button");
@@ -45,8 +46,8 @@ $('#weight-type').change(function(){
 
 var weight = $(this).val();
 
-$('#crap').removeClass();
+$('article').removeClass();
 
-$('#crap').addClass(weight);
+$("article").addClass(weight);
 console.log(weight);
 });

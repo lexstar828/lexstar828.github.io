@@ -106,7 +106,7 @@ body {
 	position: relative;
 	bottom: 0;
 	left: 0;
-	margin:32px;
+	
 	
 	font-size: 19px;
 
@@ -135,65 +135,69 @@ body {
   }
 
 
- #crap {
+.hide {
+	display:none;
+}
+
+ article {
 	
 
-	width: 90%;
-	background-image: url(../images/snowboard_blank.jpg) no-repeat;
-	background-size: cover;
+	
+	background: url(../images/snowboard_blank.jpg) no-repeat;
+	background-size: 100%;
 	overflow: hidden;
 	padding-bottom: 250px;
 	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.25);
 	
  }
- #crap img {
-	
+ article img {
+	display: block;
 	width: 100%;
 }
 
 .one {
-	background-image: url(../images/snowboard_110.jpg) no-repeat;
-	
+	background: url(../images/snowboard_110.jpg) no-repeat;
+	background-size: 100%;
 }
 .two {
-	background-image: url(../images/snowboard_115.jpg) no-repeat;
-	
+	background: url(../images/snowboard_115.jpg) no-repeat;
+	background-size: 100%;
 }
 .three {
-	background-image: url(../images/snowboard_125.jpg) no-repeat;
-	
+	background: url(../images/snowboard_125.jpg) no-repeat;
+	background-size: 100%;
 }
 .four {
-	background-image: url(../images/snowboard_135.jpg) no-repeat;
-	
+	background: url(../images/snowboard_135.jpg) no-repeat;
+	background-size: 100%;
 }
 .five {
-	background-image: url(../images/snowboard_140.jpg) no-repeat;
-	
+	background: url(../images/snowboard_140.jpg) no-repeat;
+	background-size: 100%;
 }
 .six {
-	background-image: url(../images/snowboard_150.jpg) no-repeat;
-	
+	background: url(../images/snowboard_150.jpg) no-repeat;
+	background-size: 100%;
 }
 .seven {
-	background-image: url(../images/snowboard_160.jpg) no-repeat;
-	
+	background: url(../images/snowboard_160.jpg) no-repeat;
+	background-size: 100%;
 }
 .eight {
-	background-image: url(../images/snowboard_170205.jpg) no-repeat;
-	
+	background: url(../images/snowboard_170205.jpg) no-repeat;
+	background-size: 100%;
 }
 .nine {
-	background-image: url(../images/snowboard_170205.jpg) no-repeat;
-	
+	background: url(../images/snowboard_170205.jpg) no-repeat;
+	background-size: 100%;
 }
 .ten {
-	background-image: url(../images/snowboard_170205.jpg) no-repeat;
-	
+	background: url(../images/snowboard_170205.jpg) no-repeat;
+	background-size: 100%;
 }
 .eleven {
-	background-image: url(../images/snowboard_170205.jpg) no-repeat;
-	
+	background: url(../images/snowboard_170205.jpg) no-repeat;
+	background-size: 100%;
 }
 
  @media (max-width: 480px) {
