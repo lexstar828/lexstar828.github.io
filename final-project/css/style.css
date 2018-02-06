@@ -139,7 +139,7 @@ body {
 	
 
 	width: 90%;
-	background: url(../images/snowboard_blank.jpg) no-repeat;
+	background-image: url(../images/snowboard_blank.jpg) no-repeat;
 	background-size: cover;
 	overflow: hidden;
 	padding-bottom: 250px;
@@ -190,11 +190,11 @@ body {
 .ten {
 	background-image: url(../images/snowboard_170205.jpg) no-repeat;
 	
-/* }
+}
 .eleven {
 	background-image: url(../images/snowboard_170205.jpg) no-repeat;
 	
-} */
+}
 
  @media (max-width: 480px) {
 
