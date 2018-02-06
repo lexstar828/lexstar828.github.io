@@ -37,8 +37,8 @@ body {
 	font-family: 'Roboto', sans-serif;
 	background: rgba(0,0,0,0.3);
 	color: white;
-	padding: 32px;
-	width: 33%;
+	padding: 16px;
+	width: 40%;
 	position:absolute;
 	top:0;
 	right:0;
@@ -114,11 +114,11 @@ body {
 
 
   h1, h2, h3 {
-	font-size: 32px;
+	font-size: 28px;
 	font-family: 'Signika', sans-serif;
 	text-transform: uppercase;
 	margin-top: 0;
-	letter-spacing: 5px;
+	letter-spacing: 3px;
   }
   
   a {
@@ -143,11 +143,11 @@ body {
 	
 
 	
-	background: url(../images/snowboard_blank.jpg) no-repeat;
+	background:none;
 	background-size: 100%;
 	overflow: hidden;
-	padding-bottom: 250px;
-	box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.25);
+	padding-bottom: 200px;
+	
 	
  }
  article img {
